@@ -11,9 +11,9 @@
 #la base se pasa como parametro al script para que realice el pareo
 #Ej: sh script.sh base.txt
 ##########################################################################################
-HOST_BD='192.168.33.176'
-USER_BD='ste'
-PASS_BD='ste321'
+HOST_BD=$1
+USER_BD=$2
+PASS_BD=$3
 ARCHIVO=$1
 DATE=`date +'%Y%m%d'`
 
