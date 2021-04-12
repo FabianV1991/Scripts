@@ -14,7 +14,7 @@
 HOST_BD=$1
 USER_BD=$2
 PASS_BD=$3
-ARCHIVO=$1
+ARCHIVO=$4
 DATE=`date +'%Y%m%d'`
 
 RUTA_RESULTADO='/home/vas/fvergara/pareos/resultados'
